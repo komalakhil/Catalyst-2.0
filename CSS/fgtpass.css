@@ -1,0 +1,44 @@
+* { 
+    margin : 0;
+    padding: 0;
+  }
+body,html {
+    height:100%;
+}
+.bg{
+    height:100%;
+    background-image: url("../images/books.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+.card-transparent{
+    width:20rem;
+    margin: auto;
+    position: relative;
+    top:7rem;
+}
+.head{
+    font-family: 'Macondo', cursive;
+}
+.home{
+    font-family: 'Macondo', cursive;
+}
+.wavy{
+    position: relative;
+    font-family: 'Macondo', cursive;
+    font-size: 5rem;
+  }
+  .wavy span {
+    position: relative;
+    display: inline-block;
+    
+    color: #fff;
+    text-transform: uppercase;
+    animation: flip 2s infinite;
+    animation-delay: calc(.2s * var(--i))
+  }
+  @keyframes flip {
+    0%,80% {
+      transform: rotateY(360deg) 
+    }
+  }

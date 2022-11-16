@@ -1,0 +1,145 @@
+body,html{
+    height:100%;
+}
+*{
+    margin:0%;
+    padding:0%;
+}
+.bg{
+    height:100%;
+    background-image: url("../images/books.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+h1{
+    color:white;
+    text-align: center;
+    font-family: 'Macondo', cursive;
+    position:relative;
+    top:50px;
+    opacity: 10px;
+}
+h2{
+    color:white;
+    position : relative;
+    font-family: 'Macondo', cursive;
+    top:100px;
+}
+.para1{
+    position: relative;
+    top:110px;
+    color:white;
+}
+.second{
+    position :relative;
+    top:200px;
+}
+.para2{
+    position : relative;
+    top:210px;
+    color:white;
+}
+a:link{
+    color:white;
+    text-decoration: none;
+    background-color: transparent;
+}
+a:hover{
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    text-decoration-line: underline;
+}
+a:visited{
+    color:white;
+}
+a{
+    display:block;
+    text-align: end;
+    position: relative;
+    right:80px;
+    top:40px;
+    font-family: 'Macondo', cursive;
+    color:white;
+}
+@media screen and (min-device-width:200px) and (max-device-width:480px)
+{
+    h1{
+        font-size:3rem;
+        padding-left: 4rem;
+    }
+    h2{
+        padding-left: 3rem;
+    }
+    .para1{
+        font-size:2rem;
+        padding-left: 4rem;
+    }
+    .para2{
+        font-size:2rem;
+        padding-left: 4rem;
+    }
+    a{
+        font-size: 2rem;
+    }
+}
+@media screen and (min-device-width:481px) and (max-device-width:768px)
+{
+    h1{
+        font-size:5.5rem;
+    }
+    h2{
+        padding-left: 3rem;
+    }
+    .para1{
+        font-size:2rem;
+        padding-left: 4rem;
+    }
+    .para2{
+        font-size:2rem;
+        padding-left: 4rem;
+    }
+    a{
+        font-size: 2rem;
+    }
+}
+@media screen and (min-device-width:769px) and (max-device-width:1024px)
+{
+    h1{
+        font-size:6rem;
+        padding-top: 2rem;
+    }
+    h2{
+        padding-left: 2rem;
+    }
+    .para1{
+        font-size:2rem;
+        padding-left: 4rem;
+    }
+    .para2{
+        font-size:2rem;
+        padding-left: 4rem;
+    }
+    a{
+        font-size: 2rem;
+    }
+}
+@media screen and (min-width:1025px)
+{
+    h1{
+        font-size:4rem;
+    }
+    h2{
+        padding-left: 2rem;
+    }
+    .para1{
+        font-size:1.2rem;
+        padding-left: 4rem;
+    }
+    .para2{
+        font-size:1.2rem;
+        padding-left: 4rem;
+    }
+    a{
+        font-size:1.5rem;
+    }
+}

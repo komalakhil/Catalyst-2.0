@@ -1,0 +1,125 @@
+* { 
+  margin : 0;
+  padding: 0;
+}
+body,html {
+  height:100%;
+}
+.bg{
+  height:100%;
+  background-image: url("../images/books.jpg");
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+.card-transparent{
+  width:20rem;
+  margin: auto;
+  position: relative;
+  top:3rem;
+}
+.head{
+  font-family: 'Macondo', cursive;
+}
+.wavy{
+  position: relative;
+  font-family: 'Macondo', cursive;
+  
+}
+.wavy span {
+  position: relative;
+  display: inline-block;
+  
+  color: #fff;
+  text-transform: uppercase;
+  animation: flip 2s infinite;
+  animation-delay: calc(.2s * var(--i))
+}
+@keyframes flip {
+  0%,80% {
+    transform: rotateY(360deg) 
+  }
+}
+/*for small screen devices(mobiles)*/
+
+@media screen and (min-width:300px) and (max-width:480px)
+{
+  .head{
+    font-size: 2rem;
+  }
+  .wavy{
+      font-size: 3rem;
+  }
+  .uname,.inppw,.inpuname,.pw{
+    font-size: 1.2rem;
+  }
+
+}
+/*for ipad mini*/
+
+@media screen and (min-device-width:481px) and (max-device-width:768px)
+{
+.forpw{
+  font-size: 2rem;
+  right:80px;
+}
+.head{
+  font-size:4rem;
+  padding-left:0rem;
+  padding-bottom: 3rem;
+}
+.uname,.pw{
+  font-size: 2rem;
+  padding-right:4rem;
+}
+.wavy{
+  font-size:6rem;
+}
+.inpuname,.inppw{
+  font-size: 2rem;
+  padding-right: 4rem;
+  margin-left:0rem;
+  
+}
+
+
+  
+}
+/*for small screens and laptops*/
+
+@media screen and (min-device-width:769px) and (max-device-width:1024px)
+{
+  
+  .forpw{
+    font-size: 2rem;
+    right:80px;
+  }
+  .head{
+    font-size:4rem;
+    padding-left:0px;
+    padding-bottom: 3rem;
+  }
+  .uname,.pw{
+    font-size: 2rem;
+    padding-right:4rem;
+  }
+  .wavy{
+    font-size:6rem;
+  }
+  .inpuname,.inppw{
+    font-size: 2.5rem;
+    padding-right: 4rem;
+  }
+  
+  
+}
+
+@media screen and (min-width:1025px)
+{
+  .card-head,.uname,.pw,.card-body,.card-footer,.inppw,.inpuname{
+    padding:2%;
+    margin-left:28rem;
+  }
+  .wavy{
+    font-size:5rem;
+  }
+}

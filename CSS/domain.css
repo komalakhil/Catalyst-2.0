@@ -1,0 +1,168 @@
+body,html{
+    height:100%;
+}
+*{
+    margin:0%;
+    padding:0%;
+}
+.bg{
+    height:100%;
+    background-image: url("../images/books.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    display: block;
+    text-align: center;
+   
+}
+h1{
+    color:white;
+    text-align: center;
+    font-family: 'Macondo', cursive;
+    
+    position:relative;
+    top:50px;
+    opacity: 10px;
+    font-size:55px;
+   padding-bottom: 4rem;
+}
+.card{
+    height: 21rem;
+    width:20rem;
+    text-align:center ;
+    margin:auto;
+    
+   
+
+}
+.card-body{
+    text-align: start;
+    background-color: #c98b45;
+    font-family: 'Macondo', cursive;
+    color: black;
+}
+.card-header{
+    
+    font-family: 'Macondo', cursive;
+    font-weight: bolder;
+   
+
+}
+.web{
+    font-size: 1rem;
+    text-decoration: none;
+    
+    padding-top: 8px;
+    padding-bottom: 8px;
+    display: block;
+}
+.cyber{
+    font-size: 1rem;
+    text-decoration: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    display: block;
+}
+.internet{
+    font-size: 1rem;
+    text-decoration: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    display: block;
+}
+.app{
+    font-size: 1rem;
+    text-decoration: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    display: block;
+}
+.aiml{
+    font-size: 1rem;
+    text-decoration: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    display: block;
+}
+.others{
+    font-size: 1rem;
+    text-decoration: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    display: block;
+}
+.list{
+    list-style: none;
+    color: black;
+
+   
+}
+
+/*for small screen devices(mobiles)*/
+
+@media screen and (min-width:200px) and (max-width:480px)
+{
+    h1{
+        font-size:3rem;
+        padding-left: 1.9rem;
+        text-align: center;
+    }
+   
+    
+    .bg{
+        height:100%;
+        background-image: url("background.jpg");
+        background-size:cover;
+        background-repeat:no-repeat;
+       
+    }
+
+}
+/*for ipad mini*/
+
+@media screen and (min-device-width:481px) and (max-device-width:768px)
+{
+    h1{
+        font-size:3rem;
+        
+    }
+    .card-header{
+        font-size: 2.3rem;
+        
+    }
+    .card{
+        width:500px;
+        height: 500px;
+        
+    }
+    .web,.cyber,.app,.aiml,.others,.internet{
+        font-size: 1.8rem;
+    }
+    h1{
+        padding-bottom: 7rem;
+    }
+   
+    
+}
+/*for small screens and laptops*/
+@media screen and (min-device-width:769px) and (max-device-width:1024px)
+{
+    h1{
+        font-size:3.5rem;
+        
+    }
+    .card-header{
+        font-size: 2.3rem;
+        
+    }
+    .card{
+        width:590px;
+        height: 570px;
+        
+    }
+    .web,.cyber,.app,.aiml,.others,.internet{
+        font-size: 2.3rem;
+    }
+    h1{
+        padding-bottom: 9rem;
+    }
+}

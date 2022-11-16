@@ -1,0 +1,73 @@
+body,html{
+    height:100%;
+}
+*{
+    margin:0%;
+    padding:0%;
+}
+.bg{
+    height:100%;
+    background-image: url("../images/books.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+h1{
+    color:white;
+    text-align: center;
+    font-family: 'Macondo', cursive;
+    font-size: 80px;
+    position:relative;
+    top:25px;
+    opacity: 10px;
+    font-size:60px;
+    padding-bottom: 1.5rem;
+}
+.label,.roll,.pmail,.Cmail,.linkedin,.github,.mobile{
+    color:white;
+    display: block;  
+}
+
+.roll,.pmail,.Cmail,.linkedin,.github,.mobile{
+    padding-top: 1rem;
+}
+.fo{
+    margin:auto;
+    width:230px;
+}
+.inpname,.inproll,.inpcmail,.inppmail,.inplink,.inpgit,.inpmob{
+    width:300px;
+    border-radius: 0.8rem;
+    font-size: 1rem;
+}
+
+@media screen and (min-device-width:481px) and (max-device-width:768px)
+{
+    h1{
+        font-size:5rem;
+    }
+    .fo{
+        font-size: 1.7rem;
+    }
+    .inpname,.inproll,.inpcmail,.inppmail,.inplink,.inpgit,.inpmob{
+        width:300px;
+        border-radius: 0.8rem;
+        font-size: 1.2rem;
+    }
+    
+    
+}
+@media screen and (min-device-width:769px) and (max-device-width:1024px)
+{
+    h1{
+        font-size:6rem;
+    }
+    .fo{
+        font-size: 1.9rem;
+    }
+    .inpname,.inproll,.inpcmail,.inppmail,.inplink,.inpgit,.inpmob{
+        width:300px;
+        border-radius: 0.8rem;
+        font-size: 1.5rem;
+    }
+    
+}
